@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: gray;
+    padding: 45px;
+    display:flex;
+}
+
+.card {
+    background-color: white;
+    width: 198px;
+    border-radius: 7px;
+    padding: 0 0 34px 0;
+    margin: 4px;
+}
+
+.image {
+    padding: 5px;
+}
+
+.image img {
+    border-radius: 7px;
+}
+
+.capsules {
+    padding: 0 28px 0 14px;
+
+}
+
+.capsules span {
+    border: 1px solid gray;
+    padding: 0px 6px;
+    border-radius: 7px;
+    font-size: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.content h2 {
+    padding: 10px 0px 0px 12px;
+}
+
+.content p {
+    padding: 14px 28px 0 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.button {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.button button {
+    padding: 10px 24px;
+    margin-top: 14px;
+    border-radius: 15px;
+    background-color: rgb(21, 162, 237);
+    color: rgb(10, 21, 247);
+   font-size: 10px;
+   font-weight: bold;
+   cursor: pointer;
+   border:none;
+}
+
+.button button:hover {
+            background-color: rgb(194, 225, 246);
+            color: rgb(10, 136, 214);
+        }

@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+:root {
+    --primary-color: #0909facc;
+    --text-color: white;
+    --secondary-color: #3074f3cc;
+
+}
+
+@media screen and (orientation: portrait) {
+    ul {
+
+        flex-direction: column;
+    }
+}
+
+body {
+    background-color: var(--secondary-color);
+}
+
+nav {
+    background-color: var(--primary-color);
+    padding: 12px 0;
+}
+
+ul li {
+    display: inline;
+    list-style-type: none;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+}
