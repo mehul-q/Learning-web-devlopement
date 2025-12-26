@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 250px 250px 250px 250px;
+    row-gap: 10px;
+    column-gap: 44px;
+    justify-items: center;
+    align-items: center;
+}
+
+.item {
+    border: 2px solid rgb(183, 181, 181);
+    background-color: #f2f0ec;
+    height: 230px;
+    width: 280px;
+    border-radius: 5px;
+    display: grid;
+    gap: 34px;
+    justify-content: center;
+    text-transform: capitalize;
+    font-family: Inter, Helvetica, Arial, Lucida, sans-serif;
+}
+
+
+.item-1 .box a {
+    border-radius: 5px;
+    background-color: #ffd741;
+    color: black;
+    text-decoration: none;
+
+}
+
+.item-2 .box2 a {
+    border-radius: 5px;
+    background-color: #ffd741;
+    color: black;
+    text-decoration: none;
+}
+
+.item-3 .box3 a {
+    border-radius: 5px;
+    background-color: #ffd741;
+    color: black;
+    text-decoration: none;
+}
+
+.item-4 .box4 a {
+    border-radius: 5px;
+    background-color: #ffd741;
+    color: black;
+    text-decoration: none;
+}
+
+.item-5 .box5 a {
+    border-radius: 5px;
+    background-color: #ffd741;
+    color: black;
+    text-decoration: none;
+}
+
+.item-6 .box6 a {
+    border-radius: 5px;
+    background-color: #ffd741;
+    color: black;
+    text-decoration: none;
+}
+
+.item-7 .box7 a {
+    border-radius: 5px;
+    background-color: #ffd741;
+    color: black;
+    text-decoration: none;
+}
+
+.item-8 .box8 a {
+    border-radius: 5px;
+    background-color: #ffd741;
+    color: black;
+    text-decoration: none;
+}
+
+.item-9 .box9 a {
+    border-radius: 5px;
+    background-color: #ffd741;
+    color: black;
+    text-decoration: none;
+}
+
+.item-10 .box10 a {
+    border-radius: 5px;
+    background-color: #ffd741;
+    color: black;
+    text-decoration: none;
+}
