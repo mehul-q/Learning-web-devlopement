@@ -1,0 +1,1 @@
+in this we want to create a bounce effect using animations which moves forward while jumping in a pattern 
