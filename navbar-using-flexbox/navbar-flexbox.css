@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo {
+    display: flex;
+    
+}
+
+nav {
+     display: flex;
+    align-items: center;
+    border: 2px lightgray;
+    border-radius: 5px;
+    margin: 20px;
+    font-family: "Segoe UI";
+    background-color: lightgray;
+}
+
+.centre {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.centre ul {
+    display: flex;
+    gap: 34px;
+
+}
+
+.centre ul li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.centre ul li span {
+    padding: 0 5px;
+}
+
+.most-right {
+    display: flex;
+    margin-left: auto;
+}
+
+.most-right ul {
+    display: flex;
+    gap: 34px;
+    justify-content: center;
+}
+
+.most-right ul li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.most-right ul li span {
+    padding: 0 10px;
+}
+
+.item1{
+    border: 2px solid #ffd741;
+    background-color: #ffd741;
+    border-radius: 5px;
+}
